@@ -3,7 +3,7 @@ import { lastRecord } from '../../unit/const';
 
 let initState = lastRecord && !isNaN(parseInt(lastRecord.speedRun, 10)) ?
   parseInt(lastRecord.speedRun, 10) : 1;
-if (initState < 1 || initState > 6) {
+if (initState < 1 || initState > 10) {
   initState = 1;
 }
 

@@ -43,9 +43,9 @@ const origin = {
 
 const blockType = Object.keys(blockShape);
 
-const speeds = [800, 650, 500, 370, 250, 160];
+const speeds = [800, 650, 500, 370, 250, 160, 100, 70, 40, 20];
 
-const delays = [50, 60, 70, 80, 90, 100];
+const delays = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140];
 
 const fillLine = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 
